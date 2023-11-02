@@ -1,0 +1,26 @@
+.section-divider-bar {
+    background-image: url(../assets/images/logo.png),
+        linear-gradient(to bottom, #443f8f, #2a247f);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 2%;
+    min-height: 4px;
+    display: flex;
+    padding: 0;
+    color: #c9b581;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    margin-top: 0;
+}
+
+.section-divider-title {
+    font-size: 350%;
+    font-family: "Playfair Display", serif;
+    font-weight: 600;
+    letter-spacing: 3px;
+    text-align: center;
+    margin-bottom: 0;
+    line-height: 3.4rem;
+    margin-top: 1rem;
+}
