@@ -6,21 +6,21 @@ const Contact = () => {
     <SectionDivider title="Kontakt" id="contact"/>
     <section className="contact-section">
             <a href="tel:+385913653328">
-                <img src="/images/white-phone-icon-png--clipart-best-30.png" alt="Telephone icon" width="40px" />
+                <img src="./images/white-phone-icon-png--clipart-best-30.png" alt="Telephone icon" width="40px" />
                 <em>+385913653328</em>
             </a>
             <hr />
 
 
             <a href="mailto:lookapp200@gmail.com">
-                <img className="img2" src="/images/mail.png" alt="Mail icon" width="40px"/>
+                <img className="img2" src="./images/mail.png" alt="Mail icon" width="40px"/>
                 <em>luka.postruzin9@gmail.com</em>
             </a>
             <hr />
             <a className="social" href="https://www.facebook.com/obrtLookApp" target="_blank" rel="noreferrer">
                 <div>
-                    <img src="/images/clipart735576.png" alt="Facebook icon" width="40px" />
-                    <img src="/images/instagram-icon.png" alt="Social icon" width="40px"/>
+                    <img src="./images/clipart735576.png" alt="Facebook icon" width="40px" />
+                    <img src="./images/instagram-icon.png" alt="Social icon" width="40px"/>
                 </div>
             </a>
     </section>
