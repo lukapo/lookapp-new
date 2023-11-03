@@ -1,6 +1,5 @@
 .section-divider-bar {
-    background-image: url(../assets/images/logo.png),
-        linear-gradient(to bottom, #443f8f, #2a247f);
+    background-image: linear-gradient(to bottom, #443f8f, #2a247f);
     background-size: contain;
     background-repeat: no-repeat;
     height: 2%;

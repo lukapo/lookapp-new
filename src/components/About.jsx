@@ -25,7 +25,7 @@ const About = () => {
         </p>
         <div style={{textAlign: "center"}}>
         <p className="last-paragraph"><em>Obratite nam se s povjerenjem.</em></p>
-        <img className="business-pic" src="../src/assets/images/business.jpg" alt="Business data" width="50%" />
+        <img className="business-pic" src="/images/business.jpg" alt="Business data" width="50%" />
         </div>
     </section>
     </>

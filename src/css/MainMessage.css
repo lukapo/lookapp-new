@@ -28,3 +28,10 @@
     min-width: 90px;
 }
 
+
+@media only screen and (max-width: 800px) {
+    .main-section img {
+        display: none;
+    }
+}
+

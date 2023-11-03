@@ -9,12 +9,12 @@ export const inflatables = [
         extraInfo:
             "Navedena cijena je za samopreuzimanje. Imamo opciju dostave koja se dodatno naplaćuje, a cijena dostave ovisi o udaljenosti.",
         images: [
-            "../src/assets/images/Dvorac1.jpeg",
-            "../src/assets/images/Dvorac2.jpeg",
-            "../src/assets/images/Dvorac3.jpeg",
-            "../src/assets/images/Dvorac4.jpg"
+            "./images/Dvorac1.jpeg",
+            "./images/Dvorac2.jpeg",
+            "./images/Dvorac3.jpeg",
+            "./images/Dvorac4.jpg"
         ],
-        logoImage: "../src/assets/images/crown.png"
+        logoImage: "./images/crown.png"
     },
     {
         id: 2,
@@ -26,11 +26,11 @@ export const inflatables = [
         extraInfo:
             "Navedena cijena je za samopreuzimanje. Imamo opciju dostave koja se dodatno naplaćuje, a cijena dostave ovisi o udaljenosti.",
             images: [
-                "../src/assets/images/Minioni1.jpg",
-                "../src/assets/images/Minioni2.jpg",
-                "../src/assets/images/Minioni3.jpeg",
-                "../src/assets/images/Minioni4.jpg"
+                "./images/Minioni1.jpg",
+                "./images/Minioni2.jpg",
+                "./images/Minioni3.jpeg",
+                "./images/Minioni4.jpg"
             ],
-            logoImage: "../src/assets/images/minions-logo.png"
+            logoImage: "./images/minions-logo.png"
     },
 ];
