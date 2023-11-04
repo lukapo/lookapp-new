@@ -66,6 +66,5 @@ dd {
 @media only screen and (max-width: 800px) {
     .image-gallery img {
         width: 40%;
-        height: 70px; 
     }
 }

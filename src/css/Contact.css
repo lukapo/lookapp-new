@@ -39,22 +39,22 @@ section hr {
 }
 
 .map-section iframe {
-    width: 70%;
+    width: 90%;
     border-radius: 20px;
     border: 1px solid gray;
     margin-bottom: 10%;
 }
 
 footer {
-        background-image: url(/images/big_logo.png),
+        background-image: url(/images/logo.png),
             linear-gradient(to bottom, #443f8f, #2a247f);
         background-size: contain;
         background-repeat: no-repeat;
         border-radius: 0px 0px 30px 30px ;
-        height: 8%;
-        min-height: 45px;
+        height: 5%;
+        min-height: 40px;
         display: flex;
-        justify-content:right;
+        justify-content: center;
         color: #c9b581;
         
 }
@@ -67,4 +67,23 @@ footer p:last-child {
     & span {
         font-size: 90%;
     }
+}
+
+@media only screen and (max-width: 800px) { 
+    footer {
+    justify-content: right;
+}
+
+footer p:last-child { 
+    margin-right: 3%;
+    width: 60%;
+    font-size: 80%;
+}
+}
+
+@media only screen and (max-width: 630px) { 
+footer {
+background-image: url(/images/big_logo.png),
+            linear-gradient(to bottom, #443f8f, #2a247f);
+}
 }
