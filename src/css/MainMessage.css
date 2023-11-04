@@ -33,5 +33,9 @@
     .main-section img {
         display: none;
     }
+
+    .main-section h2 {
+        font-size: 250%;
+    }
 }
 

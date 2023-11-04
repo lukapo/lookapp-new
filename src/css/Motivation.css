@@ -1,3 +1,9 @@
 #motivation h2 {
     text-align: center;
+    font-size: 120%;
+}
+
+#motivation p {
+    text-align: center;
+    font-size: 90%;
 }

@@ -5,19 +5,19 @@ const Contact = () => {
     <>
     <SectionDivider title="Kontakt" id="contact"/>
     <section className="contact-section">
-            <a href="tel:+385913653328">
+            <a title="Nazovite nas" href="tel:+385913653328">
                 <img src="./images/white-phone-icon-png--clipart-best-30.png" alt="Telephone icon" width="40px" />
                 <em>+385913653328</em>
             </a>
             <hr />
 
 
-            <a href="mailto:lookapp200@gmail.com">
+            <a title="Pošaljite mail" href="mailto:lookapp200@gmail.com">
                 <img className="img2" src="./images/mail.png" alt="Mail icon" width="40px"/>
                 <em>luka.postruzin9@gmail.com</em>
             </a>
             <hr />
-            <a className="social" href="https://www.facebook.com/obrtLookApp" target="_blank" rel="noreferrer">
+            <a title="Javite nam se na društvenim mrežama" className="social" href="https://www.facebook.com/obrtLookApp" target="_blank" rel="noreferrer">
                 <div>
                     <img src="./images/clipart735576.png" alt="Facebook icon" width="40px" />
                     <img src="./images/instagram-icon.png" alt="Social icon" width="40px"/>
@@ -39,8 +39,8 @@ const Contact = () => {
     <div className="section-divider-bar"> </div>
     <br />
     <p><strong>&copy; {new Date().getFullYear()} LookApp - obrt za poduku i savjetovanje</strong><br />
-        Ljube Babića 76D,
-        49243, Oroslavje</p>
+        <span>Ljube Babića 76D,
+        49243, Oroslavje</span></p>
 
 </footer>
 </>

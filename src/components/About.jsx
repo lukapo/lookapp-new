@@ -1,9 +1,10 @@
 import SectionDivider from "./SectionDivider";
+import '../css/About.css';
 const About = () => {
   return (
     <>
     <SectionDivider title="O nama..." id="about" />
-    <section>
+    <section className="about-section">
          
         <p>
             Primarna djelatnost obrta LookApp su poduke i savjetovanje.<br />
@@ -25,7 +26,7 @@ const About = () => {
         </p>
         <div style={{textAlign: "center"}}>
         <p className="last-paragraph"><em>Obratite nam se s povjerenjem.</em></p>
-        <img className="business-pic" src="/images/business.jpg" alt="Business data" width="50%" />
+        <img className="business-pic" src="./images/business.jpg" alt="Business data" width="50%" />
         </div>
     </section>
     </>
