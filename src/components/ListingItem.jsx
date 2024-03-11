@@ -11,9 +11,10 @@ const ListingItem = ({
     dimensions,
     extraInfo,
     images,
-    isLast
+    isLast,
 }) => {
-    const [open, setOpen] = useState(false);
+    const [index, setIndex] = useState(-1);
+   /*  const [open, setOpen] = useState(false); */
     console.log(name);
 
     const imageList = images.map((image) => {
@@ -42,20 +43,33 @@ const ListingItem = ({
                         <img
                             key={index}
                             src={image}
-                            onClick={() => setOpen(true)}
+                            onClick={() => setIndex(index)}
                             type="button"
                         />
                     ))}
                 </p>
-                
-                {isLast ? null :<> <br /><hr /></>}
+
+                {isLast ? null : (
+                    <>
+                        <br />
+                        <hr />
+                    </>
+                )}
                 <Lightbox
-                    open={open}
-                    close={() => setOpen(false)}
+
+                    index={index}
                     slides={imageList}
+                    open={index >= 0}
+                    close={() => setIndex(-1)}
+                   /*  index={index}
+                    open={open}
+                    close={() => {
+                        setOpen(false);
+                        setIndex(-1);
+                    }}
+                    slides={imageList} */
                 />
             </dl>
-           
         </article>
     );
 };
@@ -72,26 +86,3 @@ ListingItem.propTypes = {
 };
 
 export default ListingItem;
-
-/* function App() {
-    const [open, setOpen] = useState(false);
-    return (
-        <>
-            <button type="button" onClick={() => setOpen(true)}>
-                Open Lightbox
-            </button>
-
-            <Lightbox
-                open={open}
-                close={() => setOpen(false)}
-                slides={[
-                    { src: "../src/Minioni1.jpg" },
-                    { src: "../src/Minioni2.jpg" },
-                    { src: "../src/Minioni3.jpg" },
-                ]}
-            />
-        </>
-    );
-}
-
-export default App; */
