@@ -7,21 +7,22 @@ const About = () => {
     <section className="about-section">
          
         <p>
-            Primarna djelatnost obrta LookApp su poduke i savjetovanje.<br />
+            Primarna djelatnost obrta LookApp su poduke i savjetovanje.</p>
+            <p>
             Držimo poduke vezane uz Microsoft Office paket (Excel, Word, Powerpoint) zaposlenicima tvrtki i
             privatno, predajemo znanje o frontend
             programiranju (HTML, CSS, JavaScript, Git, ReactJS),
             programskom jeziku Java te dajemo instrukcije iz raznih predmeta osnovnih i srednjih škola.
-        </p><br />
+        </p>
         <p>
             Također, savjetujemo klijente kako napisati kvalitetan životopis i molbu kod apliciranja za posao i
             pomažemo im u pisanju istih, ispravljamo gramatičke greške kako na hrvatskom, tako i na engleskom
             jeziku.
-        </p><br />
+        </p>
         <p>
 
             Uz navedeno, iznajmljujemo tobogane i dvorce na
-            napuhavanje i uživamo u svakom dobro obavljenom poslu.<br />
+            napuhavanje i uživamo u svakom dobro obavljenom poslu.
 
         </p>
         <div style={{textAlign: "center"}}>
