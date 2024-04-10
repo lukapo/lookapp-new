@@ -9,9 +9,9 @@ export const inflatables = [
         extraInfo:
             "Navedena cijena je za samopreuzimanje. Imamo opciju dostave koja se dodatno naplaćuje, a cijena dostave ovisi o udaljenosti.",
         images: [
-            "./images/Dvorac1.jpeg",
+            "./images/Dvorac1.jpg",
             "./images/Dvorac2.jpeg",
-            "./images/Dvorac3.jpeg",
+            "./images/Dvorac3.jpg",
             "./images/Dvorac4.jpg"
         ],
         logoImage: "./images/crown.png"
@@ -28,7 +28,7 @@ export const inflatables = [
             images: [
                 "./images/Minioni1.jpg",
                 "./images/Minioni2.jpg",
-                "./images/Minioni3.jpeg",
+                "./images/Minioni3.jpg",
                 "./images/Minioni4.jpg"
             ],
             logoImage: "./images/minions-logo.png"
