@@ -50,4 +50,21 @@ export const inflatables = [
         ],
         logoImage: "./images/minions-logo.png"
     },
+    {
+        id: 4,
+        name: "Crveno-plavi",
+        description:
+            <>Idealan za djecu do 12 godina, ali i za one starije. <br />Veliki prostor za skakanje, zaštitna mreža, ograda, tobogan - ima sve.</>,
+        price: 80,
+        dimensions: "D x Š x V = cca (500 x 500 x 300) cm.",
+        extraInfo:
+            "Navedena cijena je za samopreuzimanje. Imamo opciju dostave koja se dodatno naplaćuje, a cijena dostave ovisi o udaljenosti.",
+        images: [
+            "./images/CB1.jpg",
+            "./images/CB2.jpg",
+            "./images/CB3.jpg",
+            "./images/CB4.jpg"
+        ],
+        logoImage: "./images/CB-logo.png"
+    },
 ];
