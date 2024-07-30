@@ -54,7 +54,7 @@ export const inflatables = [
         id: 4,
         name: "Crveno-plavi",
         description:
-            <>Idealan za djecu do 12 godina, ali i za one starije. <br />Veliki prostor za skakanje, zaštitna mreža, ograda, tobogan - ima sve.</>,
+            <>Idealan za djecu do 12 godina, ali i za one starije. <br />Veliki prostor za skakanje, zaštitna mreža, ograda, tobogan - ima sve. Uz nadoplatu, na njega možemo staviti natpis ili temu po želji uz prethonu najavu.</>,
         price: 80,
         dimensions: "D x Š x V = cca (500 x 500 x 300) cm.",
         extraInfo:
