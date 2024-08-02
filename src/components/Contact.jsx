@@ -5,13 +5,18 @@ const Contact = () => {
     <>
     <SectionDivider title="Kontakt" id="contact"/>
     <section className="contact-section">
+            <a title="WhatsApp" href="https://wa.me/385913653328">
+                <img src="./images/whatsapp-black-logo-icon--24.png" alt="WhatsApp icon" width="40px" />
+                <em>WhatsApp</em>
+            </a>
+            <hr />
+            
             <a title="Nazovite nas" href="tel:+385913653328">
                 <img src="./images/white-phone-icon-png--clipart-best-30.png" alt="Telephone icon" width="40px" />
                 <em>+385913653328</em>
             </a>
             <hr />
-
-
+            
             <a title="Pošaljite mail" href="mailto:lookapp200@gmail.com">
                 <img className="img2" src="./images/mail.png" alt="Mail icon" width="40px"/>
                 <em>luka.postruzin9@gmail.com</em>
