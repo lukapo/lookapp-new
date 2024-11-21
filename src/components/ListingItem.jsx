@@ -15,7 +15,7 @@ const ListingItem = ({
 }) => {
     const [index, setIndex] = useState(-1);
    /*  const [open, setOpen] = useState(false); */
-    console.log(name);
+ /*    console.log(name); */
 
     const imageList = images.map((image) => {
         const slide = { src: image };
@@ -78,7 +78,7 @@ const ListingItem = ({
 ListingItem.propTypes = {
     name: PropTypes.string.isRequired,
     logoImage: PropTypes.string.isRequired,
-    description: PropTypes.string.isRequired,
+    description: PropTypes.object.isRequired,
     dimensions: PropTypes.string.isRequired,
     price: PropTypes.number.isRequired,
     extraInfo: PropTypes.string.isRequired,

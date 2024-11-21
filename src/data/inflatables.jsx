@@ -4,7 +4,7 @@ export const inflatables = [
         name: "Dvorac",
         description:
             <>Oduševljava one najmlađe.<br /> Idealan za djecu vrtićke dobi (max 6 godina). <br />Ima prostor za skakanje, tunel za provlačenje, posebni odjeljak s lopticama i tobogan visine 2.5m. <br />Za unutarnji i vanjski prostor.</>,
-        price: 40,
+        price: 50,
         dimensions: "D x Š x V = (485 x 320 x 265) cm",
         extraInfo:
             "Navedena cijena je za samopreuzimanje. Imamo opciju dostave koja se dodatno naplaćuje, a cijena dostave ovisi o udaljenosti.",
