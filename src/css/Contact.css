@@ -72,6 +72,7 @@ footer p:last-child {
 @media only screen and (max-width: 800px) { 
     footer {
     justify-content: right;
+    border-radius: 0;
 }
 
 footer p:last-child { 

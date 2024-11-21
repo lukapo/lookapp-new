@@ -114,6 +114,7 @@ nav ul li:first-of-type {
     .header-section {
         background-image: url(/images/big_logo.png),
             linear-gradient(to bottom, #443f8f, #2a247f);
+        border-radius: 0;
     }
     nav ul {
         flex-direction: column;
