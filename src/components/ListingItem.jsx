@@ -43,6 +43,7 @@ const ListingItem = ({
                         <img
                             key={index}
                             src={image}
+                            alt={name + " " + index}
                             onClick={() => setIndex(index)}
                             type="button"
                         />
