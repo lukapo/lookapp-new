@@ -3,7 +3,7 @@ const Motivation = () => {
     return (
         <section id="motivation">
             <h2>
-                Počastite se nezaboravnim iskustvom za Vas, Vaše goste i djecu
+                Napuhanci za unutarnji i vajnski prostor <br />Počastite se nezaboravnim iskustvom za Vas, Vaše goste i djecu
             </h2>
             <p>
                 Unesite šarenilo, smijeh i veselje u svoj
