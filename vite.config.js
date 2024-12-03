@@ -5,7 +5,12 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   server: {
-    historyApiFallback: true, // Ovo osigurava SPA podršku za dev server
+    historyApiFallback: {
+      rewrites: [
+        // Ovo preusmjerava sve .html rute na index.html
+        { from: /.*\.html$/, to: '/index.html' },
+      ],
+    },
   },
   base: ""
 })

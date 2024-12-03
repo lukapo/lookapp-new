@@ -4,6 +4,7 @@ import Motivation from './Motivation';
 import Listing from './Listing';
 import About from './About';
 import Contact from './Contact';
+import Footer from './Footer';
 
 const Home = () => {
     return (
@@ -14,8 +15,10 @@ const Home = () => {
                 <Motivation />
                 <Listing />
                 <About />
+
+                <Contact />
             </main>
-            <Contact />
+            <Footer />
         </>
     );
 }
