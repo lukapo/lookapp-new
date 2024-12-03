@@ -26,7 +26,7 @@ const ListingItem = ({
         <article id="listing-item">
             <a href={videoUrl} target="_blank"><div id="listing-item-title">
                 <img src={logoImage} alt="Inflatable logo" />
-                <h2>{name}</h2>
+                <h2>{name} &nbsp;  <img src="./images/YouTube.png" alt="Link to youtube video" /></h2>
             </div>
             </a>
 

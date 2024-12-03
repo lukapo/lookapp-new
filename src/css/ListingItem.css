@@ -12,21 +12,29 @@
     display: block;
     width: 30%;
     margin: auto;
-   
+    text-align: center;
 }
 
 #listing-item-title {
+    padding: 5px;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    cursor: pointer;
+    box-shadow: 0 0 5px #2f2d56;
     transition: all 250ms ease-in;
+
+}
+
+#listing-item h2 img:last-of-type {
+    width: 30%;
+
 }
 
 #listing-item-title:hover {
-    cursor: pointer;
     box-shadow: 0 0 20px #2f2d56;
 }
 
