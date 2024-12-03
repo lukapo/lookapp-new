@@ -21,6 +21,7 @@ const Listing = () => {
                         price={item.price}
                         dimensions={item.dimensions}
                         extraInfo={item.extraInfo}
+                        videoUrl={item.videoUrl}
                         images={item.images}
                         isLast = {isLast}
                     />

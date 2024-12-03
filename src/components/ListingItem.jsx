@@ -10,6 +10,7 @@ const ListingItem = ({
     price,
     dimensions,
     extraInfo,
+    videoUrl,
     images,
     isLast,
 }) => {
@@ -23,10 +24,11 @@ const ListingItem = ({
     });
     return (
         <article id="listing-item">
-            <div id="listing-item-title">
+            <a href={videoUrl} target="_blank"><div id="listing-item-title">
                 <img src={logoImage} alt="Inflatable logo" />
                 <h2>{name}</h2>
             </div>
+            </a>
 
             <dl>
                 <dt>Opis</dt>
@@ -40,7 +42,7 @@ const ListingItem = ({
                 <dt>Slike</dt>
                 <p className="image-gallery">
                     {images.map((image, index) => (
-                        <div className="thumbnail">
+                        <span className="thumbnail"   key={index}>
                         <img
                             key={index}
                             src={image}
@@ -48,7 +50,7 @@ const ListingItem = ({
                             onClick={() => setIndex(index)}
                             type="button"
                         />
-                        </div>
+                        </span>
                     ))}
                 </p>
 

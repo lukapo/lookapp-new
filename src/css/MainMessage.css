@@ -32,8 +32,9 @@
 .hero-img {
     width: 100%;
     animation-name: heroAnimation; /* Naziv animacije */
-    animation-duration: 2s; /* Trajanje animacije */
+    animation-duration: 2500ms; /* Trajanje animacije */
     animation-timing-function: ease-in-out; /* Vrsta animacije */
+    animation-delay: 1000ms;
     animation-iteration-count: 2; /* Ponavlja se 3 puta */
     animation-direction: alternate;
 }
@@ -55,7 +56,7 @@
     }
 
    100% {
-        transform: scale(1.2);
+        transform: scale(1.3);
     }
     
 }

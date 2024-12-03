@@ -8,6 +8,7 @@ export const inflatables = [
         dimensions: "D x Š x V = (485 x 320 x 265) cm",
         extraInfo:
         "Navedena cijena je za samopreuzimanje. Imamo opciju dostave koja se dodatno naplaćuje, a cijena dostave ovisi o udaljenosti.",
+        videoUrl: "https://youtu.be/fFh--_TZPD8?si=GcO4W5gD7dViZRY8",
         images: [
             "./images/Dvorac1.jpg",
             "./images/Dvorac2.jpeg",
@@ -25,6 +26,7 @@ export const inflatables = [
         dimensions: "D x Š x V = cca (500 x 500 x 300) cm.",
         extraInfo:
             "Navedena cijena je za samopreuzimanje. Imamo opciju dostave koja se dodatno naplaćuje, a cijena dostave ovisi o udaljenosti.",
+        videoUrl: "https://youtube.com/shorts/bGfP7CGUh3M?si=PTGiaiWbd0_d4wdR",
         images: [
             "./images/CB1.jpg",
             "./images/CB2.jpg",
@@ -42,6 +44,7 @@ export const inflatables = [
         dimensions: "D x Š x V = (455 x 330 x 265) cm",
         extraInfo:
         "Navedena cijena je za samopreuzimanje. Imamo opciju dostave koja se dodatno naplaćuje, a cijena dostave ovisi o udaljenosti.",
+        videoUrl: "https://youtube.com/shorts/-NImsFBnZNo?si=ngZwMh49azmIpaKB",
         images: [
             "./images/Kuca1.jpg",
             "./images/Kuca2.jpg",
@@ -59,6 +62,7 @@ export const inflatables = [
         dimensions: "D x Š x V = cca (650 x 400 x 600) cm.",
         extraInfo:
             "Navedena cijena je za samopreuzimanje. Imamo opciju dostave koja se dodatno naplaćuje, a cijena dostave ovisi o udaljenosti.",
+            videoUrl: "https://youtu.be/b_pmYTCv12M?si=6IaZxS-07jyW2_QU",
         images: [
             "./images/Minioni1.jpg",
             "./images/Minioni2.jpg",

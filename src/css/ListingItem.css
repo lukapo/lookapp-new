@@ -6,14 +6,27 @@
 
 }
 
-
+#listing-item a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    width: 30%;
+    margin: auto;
+   
+}
 
 #listing-item-title {
+    border-radius: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    transition: all 250ms ease-in;
+}
 
+#listing-item-title:hover {
+    cursor: pointer;
+    box-shadow: 0 0 20px #2f2d56;
 }
 
 #listing-item h2 {
@@ -58,7 +71,7 @@ dd {
     /* Zaobljeni rubovi */
     box-shadow: 0px 0px 10px black;
     transition: box-shadow 300ms ease-in;
-    padding: 5px;
+    padding: 3px;
 }
 
 .image-gallery .thumbnail img {
@@ -80,6 +93,12 @@ dd {
 }
 
 @media only screen and (max-width: 1145px) {
+
+    #listing-item a {
+        width: 70%;
+       
+    }
+
     .image-gallery {
         gap: 3rem;
     }
