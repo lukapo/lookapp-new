@@ -20,6 +20,9 @@ function App() {
                 
                 {/* Redirect za staru stranicu */}
                 <Route path="/ponuda-napuhanaca.html" element={<Navigate to="/" replace />} />
+
+                {/* Redirect za index.html */}
+                <Route path="/index.html" element={<Navigate to="/" replace />} />
                 
                 {/* 404 stranica */}
                 <Route path="*" element={<NotFound />} />
