@@ -1,5 +1,5 @@
-import fs from 'fs';
-import path from 'path';
+const fs = require('fs');
+const path = require('path');
 
 const source = path.join(process.cwd(), 'dist/index.html');
 const destination = path.join(process.cwd(), 'dist/404.html');
