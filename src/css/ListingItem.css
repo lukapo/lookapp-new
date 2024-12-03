@@ -95,8 +95,7 @@ dd {
 @media only screen and (max-width: 1145px) {
 
     #listing-item a {
-        width: 70%;
-       
+        width: 90%;
     }
 
     .image-gallery {
