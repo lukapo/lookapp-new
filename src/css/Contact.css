@@ -64,7 +64,7 @@ section hr {
 @media (max-width:700px) {
     .map-section iframe {
         transform: translate(-220px);
-        width: 160%;
+        width: 180%;
     }
 
 
