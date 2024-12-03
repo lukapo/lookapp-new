@@ -40,6 +40,7 @@ const ListingItem = ({
                 <dt>Slike</dt>
                 <p className="image-gallery">
                     {images.map((image, index) => (
+                        <div className="thumbnail">
                         <img
                             key={index}
                             src={image}
@@ -47,6 +48,7 @@ const ListingItem = ({
                             onClick={() => setIndex(index)}
                             type="button"
                         />
+                        </div>
                     ))}
                 </p>
 

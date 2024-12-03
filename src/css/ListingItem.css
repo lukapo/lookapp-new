@@ -3,7 +3,7 @@
     padding-left: 10px;
     padding-right: 10px;
     margin-bottom: 25px;
-  
+
 }
 
 
@@ -13,16 +13,16 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+
 }
 
 #listing-item h2 {
-   padding-top: 0;
-   margin-top: 0;
-   bottom: 5px;
-   font-size:180%;
-   margin-bottom: 0.5rem;
-} 
+    padding-top: 0;
+    margin-top: 0;
+    bottom: 5px;
+    font-size: 180%;
+    margin-bottom: 0.5rem;
+}
 
 
 
@@ -44,27 +44,56 @@ dd {
 .image-gallery {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-
+    justify-content: center;
+    gap: 1.5rem;
+    /* Razmak između slika */
 }
 
-.image-gallery img {
-    width: 20%;
-    /* height: 70px; */
-    margin: 1%;
-    padding: 0.5%;
-    cursor: pointer;
-    box-shadow: 0px 0px 10px black;
+.image-gallery .thumbnail {
+    width: 21%;
+    aspect-ratio: 1;
+    /* Kvadratni omjer za konzistentne "thumbnail" dimenzije */
+    overflow: hidden;
     border-radius: 5%;
+    /* Zaobljeni rubovi */
+    box-shadow: 0px 0px 10px black;
+    transition: box-shadow 300ms ease-in;
+    padding: 5px;
 }
 
-.image-gallery img:hover {
+.image-gallery .thumbnail img {
+    border-radius: 5%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* Zadržava proporcije slike i "kroji" unutar kontejnera */
+    transition: transform 300ms ease-in;
+    cursor: pointer;
+}
+
+.image-gallery .thumbnail:hover {
     box-shadow: 0px 0px 30px #443f8f;
-    
 }
 
-@media only screen and (max-width: 800px) {
-    .image-gallery img {
+.image-gallery .thumbnail img:hover {
+    transform: scale(1.2);
+}
+
+@media only screen and (max-width: 1145px) {
+    .image-gallery {
+        gap: 3rem;
+    }
+    .image-gallery .thumbnail {
+        width: 30%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .image-gallery {
+        gap: 1.5rem;
+    }
+
+    .image-gallery .thumbnail {
         width: 40%;
     }
 }

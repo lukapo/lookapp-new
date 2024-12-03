@@ -11,7 +11,9 @@ const MainMessage = () => {
                 />
                 <h2>Osvijetlite svoju zabavu</h2>
             </section>
-            <img src="./images/minions_cropped.png" alt="Napuhanac Minioni (Malci) u dvorištu" width="100%" />
+            <div className="hero-img-container">
+                <img src="./images/minions_cropped.png" alt="Napuhanac Minioni (Malci) u dvorištu" className="hero-img" />
+            </div>
         </>
     );
 };
