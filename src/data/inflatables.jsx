@@ -18,7 +18,7 @@ export const inflatables = [
     },
     {
         id: 2,
-        name: "Tranformator",
+        name: "Transformator",
         description:
             <>Idealan za djecu do 12 godina, ali i za one starije. <br />Veliki prostor za skakanje, zaštitna mreža, ograda, tobogan - ima sve. Uz nadoplatu, na njega možemo staviti <strong>natpis ili temu po želji </strong>uz prethodnu najavu.</>,
         price: 80,

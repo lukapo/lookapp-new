@@ -1,51 +1,32 @@
-/* import { useState } from "react"; */
+import { useEffect } from "react";
 import "./App.css";
-/* import Lightbox from "yet-another-react-lightbox"; */
 import "yet-another-react-lightbox/styles.css";
-import Header from "./components/Header";
-import Motivation from "./components/Motivation";
-import Listing from "./components/Listing";
-import About from "./components/About";
-import Contact from "./components/Contact";
-import MainMessage from "./components/MainMessage";
+import Home from "./components/Home";
+import NotFound from "./components/NotFound";
 
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 
-const App = () => {
+function App() {
+    useEffect(() => {
+        if (window.location.pathname === '/ponuda-napuhanaca.html') {
+            window.location.replace('/');
+        }
+    }, []);
     return (
-        <>
-            <Header />
-            <MainMessage />
-            <Motivation />
-            <Listing />
-            <About />
-            <Contact />
-        {/*     <Footer /> */}
-        </>
+        <Router>
+            <Routes>
+                {/* Ostale rute */}
+                <Route path="/" element={<Home />} />
+                
+                {/* Redirect za staru stranicu */}
+                <Route path="/ponuda-napuhanaca.html" element={<Navigate to="/" replace />} />
+                
+                {/* 404 stranica */}
+                <Route path="*" element={<NotFound />} />
+            </Routes>
+        </Router>
     );
 }
 
 export default App;
 
-
-/* function App() {
-    const [open, setOpen] = useState(false);
-    return (
-        <>
-            <button type="button" onClick={() => setOpen(true)}>
-                Open Lightbox
-            </button>
-
-            <Lightbox
-                open={open}
-                close={() => setOpen(false)}
-                slides={[
-                    { src: "../src/Minioni1.jpg" },
-                    { src: "../src/Minioni2.jpg" },
-                    { src: "../src/Minioni3.jpg" },
-                ]}
-            />
-        </>
-    );
-}
-
-export default App; */
