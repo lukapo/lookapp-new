@@ -21,6 +21,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
     transition: all 250ms ease-in;
 }
 
@@ -95,7 +96,7 @@ dd {
 @media only screen and (max-width: 1145px) {
 
     #listing-item a {
-        width: 90%;
+        width: 70%;
     }
 
     .image-gallery {
