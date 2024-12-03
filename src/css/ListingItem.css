@@ -24,7 +24,7 @@
     align-items: center;
     overflow: hidden;
     cursor: pointer;
-    box-shadow: 0 0 5px #2f2d56;
+    box-shadow: 0 0 3px #2f2d56;
     transition: all 250ms ease-in;
 
 }
