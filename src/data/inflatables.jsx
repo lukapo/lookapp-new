@@ -17,7 +17,7 @@ export const inflatables = [
         ],
         logoImage: "./images/crown.png"
     },
-    {
+  /*  {
         id: 2,
         name: "Transformator",
         description:
@@ -34,9 +34,9 @@ export const inflatables = [
             "./images/CB4.jpg"
         ],
         logoImage: "./images/CB-logo.png"
-    },
+    },*/
     {
-        id: 3,
+        id: 2,
         name: "Velika kuća",
         description:
         <>Kao i naš Dvorac, oduševljava one najmlađe.<br /> Idealan za djecu vrtićke dobi (max 6 godina). <br />Zatvoren prostor za skakanje, tunel za provlačenje, pokrov kod vrućina, poseban, veći odjeljak s lopticama i tobogan. <br />Za unutarnji i vanjski prostor.</>,
@@ -54,7 +54,7 @@ export const inflatables = [
         logoImage: "./images/house.png"
     },
     {
-        id: 4,
+        id: 3,
         name: "Minioni",
         description:
             <>Idealan za djecu do 12 godina, ali i za one starije. <br />Uz tobogan, ima i prostor za skakanje pored kojeg je zaštita od izletavanja.</>,
